@@ -375,15 +375,24 @@ function App() {
           <NavButton icon={<History size={18} />} label="History" active={tab === "history"} onClick={() => setTab("history")} />
         </nav>
         <div className="sidebar-bottom">
-          <div className="network-card"><Globe2 size={18} /><div><b>Regional network</b><span>RW · UG · KE · CD</span></div></div>
+          <div className="network-card"><Globe2 size={18} />
+            <div>
+              <b>Regional network</b>
+              <span>RW · UG · KE · CD</span>
+            </div>
+          </div>
           <div className="profile-mini"><div className="avatar">FB</div><div><b>Fraterne</b><span>Personal wallet</span></div><MoreHorizontal size={18} /></div>
         </div>
       </aside>
 
       <main className="main">
         <header className="topbar">
-          <button className="mobile-menu"><Menu size={21} /></button>
-          <div><p className="welcome">Good evening 👋</p><span className="top-sub">Your money, your control.</span></div>
+          <button className="mobile-menu">
+            <Menu size={21} />
+          </button>
+          <div>
+            <p className="welcome">Your money, your control.</p>
+          </div>
           <div className="top-actions"><div className="secure-badge"><ShieldCheck size={15} /> Protected</div><div className="avatar">FB</div></div>
         </header>
 
