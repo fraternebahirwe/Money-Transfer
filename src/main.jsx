@@ -1007,7 +1007,6 @@ function App() {
 
       <main className="main">
         <header className="topbar">
-
           <div>
             <p className="welcome">
               Your money, your control.
