@@ -13,7 +13,6 @@ import {
   History,
   Home,
   LockKeyhole,
-  Menu,
   MoreHorizontal,
   Phone,
   Plus,
@@ -1008,10 +1007,6 @@ function App() {
 
       <main className="main">
         <header className="topbar">
-
-          <button className="mobile-menu">
-            <Menu size={21} />
-          </button>
 
           <div>
             <p className="welcome">
